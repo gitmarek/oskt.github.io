@@ -24977,7 +24977,7 @@ Floated Menu / Item
 .ui.secondary.pointing.menu {
   margin-left: 0em;
   margin-right: 0em;
-  border-bottom: 2px solid rgba(34, 36, 38, 0.15);
+  border-bottom: 0px solid rgba(34, 36, 38, 0.15);
 }
 
 .ui.secondary.pointing.menu .item {
@@ -24987,9 +24987,9 @@ Floated Menu / Item
   -webkit-align-self: flex-end;
   -ms-flex-item-align: end;
   align-self: flex-end;
-  margin: 0em 0em -2px;
+  margin: 0em 0em 0px;
   padding: 0.85714286em 1.14285714em;
-  border-bottom-width: 2px;
+  border-bottom-width: 0px;
   -webkit-transition: color 0.1s ease;
   transition: color 0.1s ease;
 }
@@ -25053,7 +25053,7 @@ Floated Menu / Item
 
 .ui.secondary.vertical.pointing.menu {
   border-bottom-width: 0px;
-  border-right-width: 2px;
+  border-right-width: 0px;
   border-right-style: solid;
   border-right-color: rgba(34, 36, 38, 0.15);
 }
@@ -25063,8 +25063,8 @@ Floated Menu / Item
   border-right-style: solid;
   border-right-color: transparent;
   border-radius: 0em !important;
-  margin: 0em -2px 0em 0em;
-  border-right-width: 2px;
+  margin: 0em 0px 0em 0em;
+  border-right-width: 0px;
 }
 
 /* Vertical Active */
@@ -25080,7 +25080,7 @@ Floated Menu / Item
 }
 
 .ui.secondary.inverted.pointing.menu {
-  border-width: 2px;
+  border-width: 0px;
   border-color: rgba(34, 36, 38, 0.15);
 }
 
