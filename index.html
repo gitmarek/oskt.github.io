@@ -149,6 +149,19 @@
         <![endif]-->
 
     <!-- Add your site or application content here -->
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+
     <!-- Following Menu -->
 
     <div class="ui large top fixed hidden menu">
@@ -157,10 +170,13 @@
             <a class="item">Work</a>
             <a class="item">Company</a>
             <a class="item">Careers</a>
-            <div class="right menu">
-                <div class="item">
-                    <!-- <a class="ui button">Log in</a> -->
-                </div>
+            <div class="middle aligned item right menu">
+                <a href="https://github.com/oskt" class="ui mini spaced image">
+                    <img src="assets/images/github/GitHub-Mark-120px-plus.png">
+                </a>
+                <a href="https://pl-pl.facebook.com/OgolnopolskaKonferencjaTeriologiczna" class="ui mini spaced image">
+                    <img src="assets/images/fb/FB-f-Logo__blue_100.png">
+                </a>
             </div>
         </div>
     </div>
@@ -173,6 +189,14 @@
         <a class="item">Careers</a>
         <a class="item">Login</a>
         <a class="item">Signup</a>
+        <div class="right item">
+            <a href="https://github.com/oskt" class="ui mini spaced image">
+                <img src="assets/images/github/GitHub-Mark-Light-120px-plus.png">
+            </a>
+            <a href="https://pl-pl.facebook.com/OgolnopolskaKonferencjaTeriologiczna" class="ui mini spaced image">
+                <img src="assets/images/fb/FB-f-Logo__white_100.png">
+            </a>
+        </div>
     </div>
 
 
@@ -189,8 +213,12 @@
                     <a class="item">Company</a>
                     <a class="item">Careers</a>
                     <div class="right item">
-                        <!-- <a class="ui inverted button">Log in</a>
-                        <a class="ui inverted button">Sign Up</a> -->
+                        <a href="https://github.com/oskt" class="ui mini spaced image">
+                            <img src="assets/images/github/GitHub-Mark-Light-120px-plus.png">
+                        </a>
+                        <a href="https://pl-pl.facebook.com/OgolnopolskaKonferencjaTeriologiczna" class="ui mini spaced image">
+                            <img src="assets/images/fb/FB-f-Logo__white_100.png">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -206,6 +234,7 @@
                 <div class="row">
                     <div class="eight wide column">
                         <h3 class="ui header">We Help Companies and Companions</h3>
+
                         <p>We can give your company superpowers to do things that they never thought possible. Let us delight your customers and empower your needs...through pure data analytics.</p>
                         <h3 class="ui header">We Make Bananas That Can Dance</h3>
                         <p>Yes that's right, you thought it was the stuff of dreams, but even bananas can be bioengineered.</p>
@@ -221,7 +250,6 @@
                 </div>
             </div>
         </div>
-
 
         <div class="ui vertical stripe quote segment">
             <div class="ui equal width stackable internally celled grid">
@@ -279,6 +307,13 @@
                     <div class="seven wide column">
                         <h4 class="ui inverted header">Footer Header</h4>
                         <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
+                        <div class="middle aligned item">
+                            <a href="https://github.com/oskt" class="ui mini spaced image">
+                                <img src="assets/images/github/GitHub-Mark-Light-120px-plus.png">
+                            </a>
+                            <div class="fb-like" data-href="https://facebook.com/OgolnopolskaKonferencjaTeriologiczna" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+                        </div>
+
                     </div>
                 </div>
             </div>
