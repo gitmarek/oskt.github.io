@@ -1,8 +1,6 @@
 # oskt.github.io
 Website for OSKT event in Wrocław, Poland  (scheduled for spring 2016).
 
-*The site is in a very early stage! As for now, please do not treat it as a source of reliable information.*
-
 ## To contribute the code (please do!):
 
 1. Though the language of the site is primarily Polish, please use English for development (e.g. for git commit messages).
